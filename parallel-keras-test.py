@@ -20,7 +20,6 @@ from keras.utils import multi_gpu_model
 import matplotlib.image as mpimg
 import pandas as pd
 import os
-from multi_gpu import make_parallel
 
 def build_model1():
 	# this is a convolutional model with 1 hidden "layer" (consisting of convolution + pooling)
